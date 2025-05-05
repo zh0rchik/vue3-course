@@ -7,6 +7,9 @@
     <list default="true" id="cf0ee880-6453-46f9-8677-e965c0f4edf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PostForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/MyButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/MyButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746213531866</updated>
-      <workItem from="1746213532890" duration="13800000" />
+      <workItem from="1746213532890" duration="15705000" />
     </task>
     <servers />
   </component>
