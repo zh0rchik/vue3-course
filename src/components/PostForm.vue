@@ -11,16 +11,20 @@
         class="input"
         type="text"
         placeholder="Описание">
-    <button
+    <my-button
+        style="align-self: flex-end; margin-top: 15px"
         class="btn"
         @click="createPost"
     >
-      Создать</button>
+      Создать</my-button>
   </form>
 </template>
 
 <script>
+import MyButton from "@/components/UI/MyButton.vue";
+
 export default {
+  components: {MyButton},
   data() {
     return {
       post:{
@@ -48,14 +52,6 @@ form{
   flex-direction: column;
 }
 
-.btn{
-  align-self: flex-end;
-  margin-top: 15px;
-  padding: 15px 10px;
-  background: none;
-  color: teal;
-  border: 1px solid teal;
-}
 
 .input{
   width: 100%;
