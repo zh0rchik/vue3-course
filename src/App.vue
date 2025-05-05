@@ -1,7 +1,10 @@
 <template>
   <div class="app">
-    <post-form/>
-    <post-list :posts="posts" />  <!--передаем в компонент (бандим) как пропсы-->
+    <post-form
+        @create="createPost"/> <!--подписываемся под событие, функци которая отработает по этому событию-->
+    <post-list
+        :posts="posts"
+    />  <!--передаем в компонент (бандим) как пропсы-->
   </div>
 </template>
 
@@ -24,7 +27,9 @@ export default {
     }
   },
   methods:{
-
+    createPost(post){
+      this.posts.push(post);
+    }
   }
 }
 </script>

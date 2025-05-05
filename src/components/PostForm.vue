@@ -31,14 +31,13 @@ export default {
   },
   methods:{
     createPost(){
-
       this.post.id = Date.now();
-
-      this.posts.push(newPost);
-
-      this.title = '';
-      this.body = '';
-    },
+      this.$emit('create', this.post);    // заимитить событие. $emit - сгенерировать событие, на который родительский компонент сможет подписаться
+      this.post = {
+        title: '',
+        body: ''
+      }
+    }
   }
 }
 </script>
