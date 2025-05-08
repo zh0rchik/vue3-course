@@ -4,6 +4,7 @@
         @create="createPost"/> <!--подписываемся под событие, функци которая отработает по этому событию-->
     <post-list
         :posts="posts"
+        @remove="removePost"
     />  <!--передаем в компонент (бандим) как пропсы-->
   </div>
 </template>
@@ -29,6 +30,9 @@ export default {
   methods:{
     createPost(post){
       this.posts.push(post);
+    },
+    removePost(post){
+      this.posts = this.posts.filter(p => p.id !== post.id);
     }
   }
 }
